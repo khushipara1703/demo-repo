@@ -1,23 +1,29 @@
-<div style="display : flex; justify-content: space-between; margin-left : 200px; padding-right : 70px ; padding-top : 10px; padding-bottom : 20px ; box-shadow : 2px 1px 2px #eee">
-    <div style="margin-top : 20px"> <img src ="logo.svg" width="150"></div>
-    <div style="display : flex; justify-content: space-between;">
-        <div style="color:grey ; padding : 20px;cursor : pointer">Signup</div>
-        <div style="color:grey ; padding : 20px;cursor : pointer">About</div>
-        <div style="color:grey ;padding : 20px;cursor : pointer">Products</div>
-        <div style="color:grey ;padding : 20px;cursor : pointer">Pricing</div>
-        <div style="color:grey ;padding : 20px;cursor : pointer">Support</div>
-    </div>
-</div>
-<br>
-<div style="display : flex; justify-content :center; padding-top : 20px">
-    <img src="photo.png" width="900">
-</div>
-<div style="display : flex; justify-content : center ">
-    <h1>Invest in everything</h1>
-</div>
-<div style="font-weight : 400; display : flex; justify-content : center; color: grey ;">
-    <h3>Online platform to invest in stocks, derivatives, mutual funds, and more</h3>
-</div>
-<div style="display : flex; justify-content:center">
-    <div style="color : white; background-color : #387ed1; cursor : pointer; padding-top : 10px;padding-bottom : 10px; padding-left : 30px; padding-right : 30px; border-radius : 3px">Sign up now</div>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List App</title> 
+    <link rel="stylesheet" href="style.css">  
+    
+</head>
+<body> 
+    <div class="container"> 
+        <div class="todo-app">  
+            <h2>To-Do List <img src="https://metalop.com/ToDo-List-Pro/images/TODO-List-icon-small.png"></h2>
+         <div class="row"> 
+            <input type="text" id="input-box" placeholder="Add your text"> 
+            <button onclick = "addTask()">Add</button> 
+         </div>  
+         <ul id="list-container">  
+           <!--- <li class="checked">Task1</li> 
+            <li>Task2</li>
+            <li>Task3</li> -->
+         </ul> 
+        </div>
+     </div> 
+
+     <script src ="script.js"></script>
+    
+</body>
+</html>
